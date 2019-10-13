@@ -26,7 +26,7 @@ function Turn({author, books, highlight, onAnswerSelected}) {
   return (
     <div className="row turn" 
       style={{backgroundColor: highlightToBgColor(highlight)}}>
-      <div className="col-1 offset-1">
+      <div className="col-4 offset-1">
         <img src={author.imageUrl} className="authorimage" alt="Author" />
       </div>
       <div className="col-6">
